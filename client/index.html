@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="/clientstyle.css">
+</head>
+
+<body>
+
+<h1>Welcome To The Connected Campervan Project</h1>
+<p>The Kickstart Kamper Central Computer and Off-Grid Local Data Server</p>
+<p>@kickstartkamper, kickstartkamper.com</p>
+
+<form action="/" method="POST">
+  <fieldset>
+    <h2>Manual Data Update Test</h3>
+    <button type ="submit" id="update_button">Request New Data</button>
+  </fieldset>
+ </form>
+<br></br>
+
+<table>
+  <tr>
+    <th>Sensor</th>
+    <th>Data</th>
+<th>Unit</th>
+  </tr>
+  <tr>
+    <td >Temperature</td>
+    <td id="temperature_data">20</td>
+<td>degC</td>
+  </tr>
+  <tr>
+    <td>Light Level</td>
+    <td id="light_data">50</td>
+<td>%</td>
+  </tr>
+</table>
+
+<script type="text/javascript" src="/jquery.min.js"></script>
+<script type="text/javascript" src="/clientcode.js"></script>
+</body>
+</html>
