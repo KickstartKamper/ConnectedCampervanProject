@@ -83,9 +83,6 @@ app.listen(port, hostname, function()
 
 
 
-
-
-
 /* Read USB serial data from sensor cluster */
 // https://serialport.io/docs/api-serialport
 // https://serialport.io/docs/api-serialport#parsers
@@ -123,8 +120,3 @@ Cluster_Humidity = CSVData[5];
 Cluster_Altitude = CSVData[6];
 Cluster_Light = CSVData[7];
 });
-
-
-
-
-
