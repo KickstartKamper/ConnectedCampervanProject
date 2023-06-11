@@ -139,7 +139,7 @@ console.log("Setting up DB");
 let conn = await mariadb.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'rock',
+  password: '[password]',
 database: 'CampervanData'
  });
 
@@ -183,7 +183,7 @@ async function SensorDBUpdate() {
 let conn = await mariadb.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'rock',
+  password: '[password]',
 database: 'CampervanData'
  });
 
