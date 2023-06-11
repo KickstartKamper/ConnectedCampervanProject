@@ -1,11 +1,4 @@
-// ROCK 5B server code (Node.js)
-// Uses the express library to listen for and handle incoming HTTP events
-// Returns HTML, CSS and JavaScript files to client as required
-// Returns placeholder data to client in response to HTTP post requests.
-
 // CTRL + C to exit Node
-
-
 
 /************************************************************************/
 /*******************************WEB SERVER*******************************/
